@@ -1,0 +1,238 @@
+body {
+    font-family: 'Noto Sans', 'sans-serif';
+    font-weight: 400;
+    margin: 0;
+}
+
+
+:root {
+    --color-gray: #868585;
+    --color-white: #ffffff;
+    --color-black: #303030;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+
+/* -------------------------------------Hero---------------------------------------------- */
+
+.hero {
+    background-image: url(/images/background-hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 261px;
+    padding-bottom: 471px;
+
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-top-text {
+    font-size: 18px;
+    line-height: 1.38;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.35;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.hero-bottom-text {
+    font-size: 42px;
+    line-height: 1.35;
+    color: #FFFFFF;
+    width: 589px;
+    text-align: center;
+    margin-left: 305px;
+
+}
+
+/* -----------------------------------Services--------------------------------------------------- */
+
+.services {
+    padding-top: 150px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.services-div {
+    width: 510px;
+}
+
+.services-img-div {
+    margin-left: 89px;
+    padding-top: 93px;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.37;
+    color: #868585;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.services-list-item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.services-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.38;
+    color: #303030;
+    margin-bottom: 15px;
+}
+
+.services-list-text {
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+}
+
+.services-img {
+    width: 600px;
+    height: 670px;
+}
+
+
+/* --------------------------------------------------------------Green-Tar--------------------------------------- */
+
+.green-tar-container {
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+.green-tar-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.37;
+    color: #868585;
+    margin-bottom: 60px;
+}
+
+.menu-list {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 120px;
+}
+
+.menu-list-link {
+    font-size: 18px;
+    line-height: 1.38;
+    color: #303030;
+}
+
+.price-div {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.green-tar-left-img {
+    width: 235px;
+    height: 200px;
+}
+
+.green-tar-price-text {
+    width: 235px;
+    margin-left: 40px;
+    font-size: 14px;
+    line-height: 1.35;
+    color: #303030;
+}
+
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-list-item:nth-child(-n+2) {
+    margin-bottom: 38px;
+}
+
+.benefits-list-item:nth-child(odd) {
+    margin-right: 40px;
+}
+
+.benefits-list-item {
+    width: 235px;
+
+}
+
+.benefits-list-tytle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.38;
+    color: #303030;
+    margin-bottom: 4px;
+    width: 235;
+}
+
+.text-about-green-tar {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.38;
+    color: #303030;
+    margin-bottom: 77px;
+}
+
+.green-tar-right-img {
+    width: 600px;
+    height: 525px;
+}
+
+.green-tar-right {
+    margin-left: 90px;
+}
+
+.text-about-green-tar {}
+
+.green-tar-right {
+    padding-top: 84px;
+}
