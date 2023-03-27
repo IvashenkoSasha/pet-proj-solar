@@ -236,3 +236,123 @@ h3 {
 .green-tar-right {
     padding-top: 84px;
 }
+
+/* -------------------------------Quote----------------------------------------------- */
+
+.quote {
+    background-image: url(/images/quote-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 144px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-title {
+    font-size: 42px;
+    line-height: 1.35;
+    text-align: center;
+    color: #FFFFFF;
+    width: 632px;
+}
+
+/* ---------------------------------Our customers------------------------------------------- */
+
+.our-customers-container {
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 182px;
+}
+
+.our-customers-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.37;
+    color: #868585;
+    margin-bottom: 60px;
+}
+
+.our-customers-img {
+    width: 510px;
+    height: 370px;
+}
+
+.our-customers-right {
+    padding-top: 93px;
+    margin-left: 91px;
+}
+
+.our-customers-information-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.38;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+.address-list-text {
+    font-size: 14px;
+    line-height: 1.35;
+    color: #303030;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-left: 51px;
+}
+
+/* ------------------------------------------------------Instruction------------------------------------------------ */
+
+.insruction-container {
+    display: flex;
+}
+
+.instruction-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.37;
+    color: #868585;
+    width: 275px;
+}
+
+.instruction-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.instruction-list-number {
+    font-size: 14px;
+    line-height: 1.35;
+    color: #868585;
+    margin-bottom: 11px;
+}
+
+.instruction-list-tytle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.38;
+    color: #303030;
+    margin-bottom: 2px;
+}
+
+.instruction-list-text {
+    font-size: 14px;
+    line-height: 1.35;
+    color: #303030;
+}
+
+.instruction-img {
+    width: 600px;
+    height: 730px;
+}
+
+.instruction-right {
+    margin-left: 90px;
+}
