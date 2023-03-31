@@ -43,7 +43,7 @@ h3 {
 /* -------------------------------------Hero---------------------------------------------- */
 
 .hero {
-    background-image: url(./images/background-hero-img.jpg);
+    background-image: url(../images/background-hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 261px;
@@ -240,7 +240,7 @@ h3 {
 /* -------------------------------Quote----------------------------------------------- */
 
 .quote {
-    background-image: url(./images/quote-background.jpg);
+    background-image: url(../images/quote-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 128px;
